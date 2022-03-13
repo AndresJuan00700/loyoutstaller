@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="loyoutstaller.MainPage">
+
+    <ContentPage.Content>
+
+        <Grid>
+
+            <Image Source="https://i.pinimg.com/474x/45/c3/37/45c337d6bff68cf4d1943996e033542e.jpg" Aspect="AspectFill"/>
+
+
+
+
+            <Grid>
+
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+
+               </Grid.RowDefinitions>
+                
+                
+              
+                
+                
+                <Image  HeightRequest="100" WidthRequest="100" Grid.Row="0" Margin="0,70,0,0" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Symbol_from_Marvel%27s_The_Avengers_logo.svg/658px-Symbol_from_Marvel%27s_The_Avengers_logo.svg.png" />
+                
+
+
+                <StackLayout   Grid.Row="1" Padding="40,20">
+                    <Label Text="Welcome to APPDESING" FontSize="Large"  HorizontalOptions="Center" Margin="0,0,0,30"/>
+
+                    <Entry Placeholder="Username" PlaceholderColor="#FF6F00"  />
+
+                    <Entry Placeholder="Password" PlaceholderColor="#FF6F00" IsPassword="True" />
+                    <Button Text="SING IN"  CornerRadius="100"   TextColor="white" Background="#1A237E"    />
+
+                    <Label Text="OR" FontSize="Medium" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,70,0,0"  />
+                    <Label Text="Login with" FontSize="Medium" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,0,10,30"  />
+
+                    <StackLayout  Orientation="Horizontal" >
+
+                        <Image  HeightRequest="40" WidthRequest="40" Margin="70,0,10,0" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/600px-Facebook_f_logo_%282019%29.svg.png" />
+                        <Image  HeightRequest="40" WidthRequest="40" Margin="0,0,10,0"  Source=" https://www.pngplay.com/wp-content/uploads/8/Twitter-PNG-Clipart-Background.png" />
+
+                        <Image  HeightRequest="40" WidthRequest="40"  Source=" https://www.shareicon.net/data/512x512/2015/08/26/91245_plus_512x512.png" />
+
+
+                        
+
+                    </StackLayout>
+
+
+
+                </StackLayout>
+               
+
+
+            </Grid>
+            
+            
+            
+            
+            
+
+        </Grid>
+       
+        
+        
+        
+    </ContentPage.Content>
+
+</ContentPage>
