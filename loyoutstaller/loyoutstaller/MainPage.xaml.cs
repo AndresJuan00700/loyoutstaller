@@ -13,6 +13,26 @@ namespace loyoutstaller
         public MainPage()
         {
             InitializeComponent();
+
+            Inicio.Clicked += (sender, e) =>
+            {
+
+                Navigation.PushAsync(new registro());
+
+
+
+            };
+
+
+
+
         }
+
+
+      
+
+
+
+
     }
 }

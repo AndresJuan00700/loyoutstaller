@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="loyoutstaller.registro">
+    <ContentPage.Content>
+
+        <Grid>
+
+            <Image Source="https://i.pinimg.com/474x/45/c3/37/45c337d6bff68cf4d1943996e033542e.jpg" Aspect="AspectFill"/>
+
+
+
+            <Grid>
+
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+
+                </Grid.RowDefinitions>
+
+
+
+
+
+                <Image  HeightRequest="100" WidthRequest="100" Grid.Row="0" Margin="0,30,0,0" Source="https://pic.onlinewebfonts.com/svg/img_337531.png"  />
+
+
+
+                <StackLayout   Grid.Row="1" Padding="40,20">
+                    <Label Text="CREATE ACCOUNT" FontSize="Large"  HorizontalOptions="Center" />
+
+                    <RelativeLayout    >
+                        <BoxView Color="Silver"
+                 RelativeLayout.XConstraint="90"
+                 RelativeLayout.YConstraint="10"
+                 RelativeLayout.WidthConstraint="130"
+                 RelativeLayout.HeightConstraint="5" />
+
+                    </RelativeLayout>
+
+                    <Entry Placeholder="Your nickname" PlaceholderColor="#FF6F00"  />
+
+                    <Entry Placeholder="Your e-mail" PlaceholderColor="#FF6F00" IsPassword="True" />
+                    <Entry Placeholder="Your password" PlaceholderColor="#FF6F00" IsPassword="True" />
+                    <Entry Placeholder="Confirm password" PlaceholderColor="#FF6F00" IsPassword="True" Margin="0,0,0,40" />
+                    <Button Text="->"  CornerRadius="100"   TextColor="white" Background="#FF6F00"  x:Name="Inicio" Padding="0,0,0,0" Margin="100,0,100,170" />
+
+                    
+
+                   
+
+
+
+                </StackLayout>
+
+
+
+            </Grid>
+
+
+
+        </Grid>
+
+
+
+
+
+
+
+
+
+    </ContentPage.Content>
+</ContentPage>

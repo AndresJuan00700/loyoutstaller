@@ -26,7 +26,7 @@
               
                 
                 
-                <Image  HeightRequest="100" WidthRequest="100" Grid.Row="0" Margin="0,70,0,0" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Symbol_from_Marvel%27s_The_Avengers_logo.svg/658px-Symbol_from_Marvel%27s_The_Avengers_logo.svg.png" />
+                <Image  HeightRequest="100" WidthRequest="100" Grid.Row="0" Margin="0,30,0,0" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Symbol_from_Marvel%27s_The_Avengers_logo.svg/658px-Symbol_from_Marvel%27s_The_Avengers_logo.svg.png" />
                 
 
 
@@ -36,7 +36,7 @@
                     <Entry Placeholder="Username" PlaceholderColor="#FF6F00"  />
 
                     <Entry Placeholder="Password" PlaceholderColor="#FF6F00" IsPassword="True" />
-                    <Button Text="SING IN"  CornerRadius="100"   TextColor="white" Background="#1A237E"    />
+                    <Button Text="SING IN"  CornerRadius="100"   TextColor="white" Background="#1A237E"  x:Name="Inicio"  />
 
                     <Label Text="OR" FontSize="Medium" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,70,0,0"  />
                     <Label Text="Login with" FontSize="Medium" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,0,10,30"  />
