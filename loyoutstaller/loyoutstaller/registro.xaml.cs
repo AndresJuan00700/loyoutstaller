@@ -19,7 +19,7 @@ namespace loyoutstaller
             Registro.Clicked += (sender, e) =>
             {
 
-                Navigation.PushAsync(new Aplicacion());
+                Navigation.PushModalAsync(new Aplicacion());
 
 
 
