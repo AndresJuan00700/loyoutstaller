@@ -6,7 +6,7 @@ namespace loyoutstaller
 {
     public partial class App : Application
     {
-        
+        public static Aplicacion FloyoutP { get; internal set; }
 
         public App()
         {

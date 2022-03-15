@@ -10,21 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace loyoutstaller
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class registro : ContentPage
+    public partial class Aplicacion : FlyoutPage
     {
-        public registro()
+        public Aplicacion()
         {
             InitializeComponent();
 
-            Registro.Clicked += (sender, e) =>
-            {
+            this.Flyout = new botones();
+            this.Detail = new NavigationPage(new perfil());
 
-                Navigation.PushAsync(new Aplicacion());
-
-
-
-            };
-
+            App.FloyoutP = this;
 
 
         }

@@ -24,7 +24,8 @@
 
 
 
-                <Image  HeightRequest="100" WidthRequest="100" Grid.Row="0" Margin="0,30,0,0" Source="https://pic.onlinewebfonts.com/svg/img_337531.png"  />
+                <Image  HeightRequest="100" WidthRequest="100" Grid.Row="0" Margin="0,30,0,0" Source="https://pic.onlinewebfonts.com/svg/img_337531.png" 
+                        />
 
 
 
@@ -45,7 +46,7 @@
                     <Entry Placeholder="Your e-mail" PlaceholderColor="#FF6F00" IsPassword="True" />
                     <Entry Placeholder="Your password" PlaceholderColor="#FF6F00" IsPassword="True" />
                     <Entry Placeholder="Confirm password" PlaceholderColor="#FF6F00" IsPassword="True" Margin="0,0,0,40" />
-                    <Button Text="->"  CornerRadius="100"   TextColor="white" Background="#FF6F00"  x:Name="Inicio" Padding="0,0,0,0" Margin="100,0,100,170" />
+                    <Button Text="->"  CornerRadius="100"   TextColor="white" Background="#FF6F00"  x:Name="Registro" Padding="0,0,0,0" Margin="100,0,100,170" />
 
                     
 

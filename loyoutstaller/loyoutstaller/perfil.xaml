@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="loyoutstaller.perfil"
+             Title="YOUR PROFILE">
+    <ContentPage.Content>
+    <Grid>
+
+        <Image Source="https://i.pinimg.com/474x/45/c3/37/45c337d6bff68cf4d1943996e033542e.jpg" Aspect="AspectFill"/>
+
+
+        <Grid>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+
+            </Grid.ColumnDefinitions>
+
+     
+
+            <Image Source="https://pic.onlinewebfonts.com/svg/img_337531.png" Grid.Column="0"  Margin="30,-110,30,0" />
+            <Label Text="John Doe "  Grid.Column="1"  Padding="-10,60"  />
+            <Label Text="Johndoe@site.com"  Grid.Column="1" Grid.Row="1"  Margin="-10,-250"/>
+            <Label Text="Johndoe@site.com"  Grid.Column="1" Grid.Row="1"  Margin="-10,-220"/>
+
+
+        </Grid>
+
+        
+
+    </Grid>
+    
+    </ContentPage.Content>
+</ContentPage>

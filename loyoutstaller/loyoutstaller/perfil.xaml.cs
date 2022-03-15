@@ -10,23 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace loyoutstaller
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class registro : ContentPage
+    public partial class perfil : ContentPage
     {
-        public registro()
+        public perfil()
         {
             InitializeComponent();
-
-            Registro.Clicked += (sender, e) =>
-            {
-
-                Navigation.PushAsync(new Aplicacion());
-
-
-
-            };
-
-
-
         }
     }
 }
