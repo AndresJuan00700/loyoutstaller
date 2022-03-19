@@ -5,9 +5,10 @@
              Title="botones">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Account Settings"
+                    Clicked="Button_Clicked" BackgroundColor="#42A5F5"/>
+
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -10,18 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace loyoutstaller
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Aplicacion : FlyoutPage
+    public partial class calendario : ContentPage
     {
-        public Aplicacion()
+        public calendario()
         {
             InitializeComponent();
-
-            this.Flyout = new botones();
-            this.Detail = new NavigationPage(new perfil());
-
-            App.FlyoutP = this;
-
-
         }
     }
 }

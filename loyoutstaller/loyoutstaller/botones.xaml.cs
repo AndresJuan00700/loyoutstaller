@@ -16,5 +16,10 @@ namespace loyoutstaller
         {
             InitializeComponent();
         }
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            App.FlyoutP.Detail.Navigation.PushAsync(new calendario());
+            App.FlyoutP.IsPresented = false;
+        }
     }
 }
