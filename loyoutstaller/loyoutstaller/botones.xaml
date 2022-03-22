@@ -7,8 +7,9 @@
         <StackLayout>
             <Button Text="Account Settings"
                     Clicked="Button_Clicked" BackgroundColor="#42A5F5"/>
+            <Button Text="Account Settings"
+                    Clicked="Button_Clicked2" BackgroundColor="#42A5F5"/>
 
-            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
