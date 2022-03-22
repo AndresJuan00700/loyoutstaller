@@ -2,7 +2,7 @@
 <CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="loyoutstaller.calendariobienhecho">
-    <ContentPage  Title="enero" >
+    <ContentPage  Title="January" >
 
         <FlexLayout Direction="Column">
             <StackLayout BackgroundColor="#FF7043" Orientation="Horizontal" Padding="15" >
@@ -10,12 +10,12 @@
                 <StackLayout  HeightRequest="25" Padding="0"   HorizontalOptions="FillAndExpand">
 
                     <StackLayout Orientation="Horizontal" >
-                        <Image Source="https://cdn-icons-png.flaticon.com/512/25/25618.png" HeightRequest="50"/>
-                        <Label x:Name="txtUser" Text="1 de enero del 2022" HorizontalTextAlignment="Center"  Margin="0,12,0,0" TextColor="White" HorizontalOptions="FillAndExpand" />
+
+                        <Label  Text="1 de January del 2022" FontSize="Small" FontAttributes="Bold"   HorizontalTextAlignment="Center"  Margin="70,12,0,0" TextColor="White" HorizontalOptions="FillAndExpand" />
                     </StackLayout>
                 </StackLayout>
 
-                
+
                 <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
                     <ImageButton Source="https://cdn-icons-png.flaticon.com/512/32/32339.png" BackgroundColor="#FF5722" BorderColor="White" BorderWidth="2.5"  Padding="0" WidthRequest="40" HeightRequest="40" CornerRadius="100"/>
                 </Frame>
@@ -23,13 +23,12 @@
 
 
             <StackLayout  Orientation="Horizontal" Padding="15">
-                <Image Source="https://cdn-icons-png.flaticon.com/512/43/43731.png" HeightRequest="20" WidthRequest="20"/>
-                <Label Text="prueba " Margin="10,0,50,0"   />
 
-                <Label Text=" 1 de enero" Margin="0,0,70,0"    />
-                <Label Text="prueaba" Margin="0,0,0,0"/>
+
+                <Label Text=" 1 de January" Margin="140,0,70,0"  FontSize="Small" FontAttributes="Bold"  />
+                <Label Text="February" Margin="0,0,0,0"/>
                 <Image Source=" https://cdn-icons-png.flaticon.com/512/43/43478.png" HeightRequest="20" WidthRequest="20"/>
-               
+
             </StackLayout>
 
 
@@ -51,7 +50,7 @@
                 </RelativeLayout>
 
 
-                <Label Text="Today's Events"   TextColor="Black" FontSize="Medium" FontAttributes="Bold"  />
+                <Label Text="Today's Events"   TextColor="Black" FontSize="Small" FontAttributes="Bold"  />
 
 
                 <StackLayout  Orientation="Horizontal"  Padding="0,40,0,0">
@@ -80,7 +79,7 @@
             </FlexLayout>
 
 
-            
+
 
 
 
@@ -92,7 +91,7 @@
 
 
 
-    <ContentPage  Title="febrero" >
+    <ContentPage  Title="February" >
 
 
 
@@ -103,7 +102,7 @@
 
                     <StackLayout Orientation="Horizontal" >
                         <Image Source="https://cdn-icons-png.flaticon.com/512/25/25618.png" HeightRequest="50"/>
-                        <Label x:Name="txtUser" Text="1 de Febrero del 2022" HorizontalTextAlignment="Center"  Margin="0,12,0,0" TextColor="White" HorizontalOptions="FillAndExpand" />
+                        <Label  Text="1 de February del 2022"  FontSize="Small" FontAttributes="Bold" HorizontalTextAlignment="Center"  Margin="0,12,0,0" TextColor="White" HorizontalOptions="FillAndExpand" />
                     </StackLayout>
                 </StackLayout>
 
@@ -116,10 +115,10 @@
 
             <StackLayout  Orientation="Horizontal" Padding="15">
                 <Image Source="https://cdn-icons-png.flaticon.com/512/43/43731.png" HeightRequest="20" WidthRequest="20"/>
-                <Label Text="prueba " Margin="10,0,50,0"   />
+                <Label Text="January " Margin="10,0,50,0"   />
 
-                <Label Text=" 1 de enero" Margin="0,0,70,0"    />
-                <Label Text="prueaba" Margin="0,0,0,0"/>
+                <Label Text=" 1 de February" FontSize="Small" FontAttributes="Bold"     Margin="0,0,70,0"    />
+                <Label Text="March" Margin="0,0,0,0"/>
                 <Image Source=" https://cdn-icons-png.flaticon.com/512/43/43478.png" HeightRequest="20" WidthRequest="20"/>
 
             </StackLayout>
@@ -143,7 +142,7 @@
                 </RelativeLayout>
 
 
-                <Label Text="Today's Events"   TextColor="Black" FontSize="Medium" FontAttributes="Bold"  />
+                <Label Text="Today's Events"   TextColor="Black" FontSize="Small" FontAttributes="Bold"  />
 
 
                 <StackLayout  Orientation="Horizontal"  Padding="0,40,0,0">
@@ -188,8 +187,90 @@
     </ContentPage>
 
 
-    <ContentPage  Title="marzo" >
+    <ContentPage  Title="March" >
 
+
+        <FlexLayout Direction="Column">
+            <StackLayout BackgroundColor="#FF7043" Orientation="Horizontal" Padding="15" >
+
+                <StackLayout  HeightRequest="25" Padding="0"   HorizontalOptions="FillAndExpand">
+
+                    <StackLayout Orientation="Horizontal" >
+                        <Image Source="https://cdn-icons-png.flaticon.com/512/25/25618.png" HeightRequest="50"/>
+                        <Label  Text="1 de March del 2022" FontSize="Small" FontAttributes="Bold"    HorizontalTextAlignment="Center"  Margin="0,12,0,0" TextColor="White" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </StackLayout>
+
+
+                <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                    <ImageButton Source="https://cdn-icons-png.flaticon.com/512/32/32339.png" BackgroundColor="#FF5722" BorderColor="White" BorderWidth="2.5"  Padding="0" WidthRequest="40" HeightRequest="40" CornerRadius="100"/>
+                </Frame>
+            </StackLayout>
+
+
+            <StackLayout  Orientation="Horizontal" Padding="15">
+                <Image Source="https://cdn-icons-png.flaticon.com/512/43/43731.png" HeightRequest="20" WidthRequest="20"/>
+                <Label Text="February " Margin="10,0,50,0"   />
+
+                <Label Text=" 1 de March" FontSize="Small" FontAttributes="Bold"   Margin="0,0,70,0"    />
+                <Label Text="April" Margin="0,0,0,0"/>
+                <Image Source=" https://cdn-icons-png.flaticon.com/512/43/43478.png" HeightRequest="20" WidthRequest="20"/>
+
+            </StackLayout>
+
+
+            <StackLayout>
+
+                <Image Source="marzo.jpeg" />
+            </StackLayout>
+
+
+            <FlexLayout Direction="Column" FlexLayout.Grow="1"  AlignItems="Center"   >
+
+                <RelativeLayout Padding="0,0,0,30">
+                    <BoxView Color="Silver"
+                 RelativeLayout.XConstraint="0"
+                 RelativeLayout.YConstraint="10"
+                 RelativeLayout.WidthConstraint="250"
+                 RelativeLayout.HeightConstraint="5" />
+
+                </RelativeLayout>
+
+
+                <Label Text="Today's Events"   TextColor="Black" FontSize="Small" FontAttributes="Bold"  />
+
+
+                <StackLayout  Orientation="Horizontal"  Padding="0,40,0,0">
+
+                    <Label Text="1 Meeting with J. Doe " Margin="10,0,120,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
+
+
+
+                <StackLayout  Orientation="Horizontal"  Padding="0,10,0,0">
+
+                    <Label Text="2 Call J. Doe " Margin="10,0,170,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
+
+
+            </FlexLayout>
+
+
+
+
+
+
+        </FlexLayout>
 
 
 
@@ -199,66 +280,785 @@
     <ContentPage  Title="abril" >
 
 
+        <FlexLayout Direction="Column">
+            <StackLayout BackgroundColor="#FF7043" Orientation="Horizontal" Padding="15" >
 
+                <StackLayout  HeightRequest="25" Padding="0"   HorizontalOptions="FillAndExpand">
+
+                    <StackLayout Orientation="Horizontal" >
+                        <Image Source="https://cdn-icons-png.flaticon.com/512/25/25618.png" HeightRequest="50"/>
+                        <Label  Text="1 de april del 2022" FontSize="Small" FontAttributes="Bold"   HorizontalTextAlignment="Center"  Margin="0,12,0,0" TextColor="White" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </StackLayout>
+
+
+                <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                    <ImageButton Source="https://cdn-icons-png.flaticon.com/512/32/32339.png" BackgroundColor="#FF5722" BorderColor="White" BorderWidth="2.5"  Padding="0" WidthRequest="40" HeightRequest="40" CornerRadius="100"/>
+                </Frame>
+            </StackLayout>
+
+
+            <StackLayout  Orientation="Horizontal" Padding="15">
+                <Image Source="https://cdn-icons-png.flaticon.com/512/43/43731.png" HeightRequest="20" WidthRequest="20"/>
+                <Label Text="March " Margin="10,0,50,0"   />
+
+                <Label Text=" 1 de april" FontSize="Small" FontAttributes="Bold"    Margin="0,0,70,0"    />
+                <Label Text="May" Margin="0,0,0,0"/>
+                <Image Source=" https://cdn-icons-png.flaticon.com/512/43/43478.png" HeightRequest="20" WidthRequest="20"/>
+
+            </StackLayout>
+
+
+            <StackLayout>
+
+                <Image Source="abril.jpeg" />
+            </StackLayout>
+
+
+            <FlexLayout Direction="Column" FlexLayout.Grow="1"  AlignItems="Center"   >
+
+                <RelativeLayout Padding="0,0,0,30">
+                    <BoxView Color="Silver"
+                 RelativeLayout.XConstraint="0"
+                 RelativeLayout.YConstraint="10"
+                 RelativeLayout.WidthConstraint="250"
+                 RelativeLayout.HeightConstraint="5" />
+
+                </RelativeLayout>
+
+
+                <Label Text="Today's Events"   TextColor="Black" FontSize="Small" FontAttributes="Bold"  />
+
+
+                <StackLayout  Orientation="Horizontal"  Padding="0,40,0,0">
+
+                    <Label Text="1 Meeting with J. Doe " Margin="10,0,120,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
+
+
+
+                <StackLayout  Orientation="Horizontal"  Padding="0,10,0,0">
+
+                    <Label Text="2 Call J. Doe " Margin="10,0,170,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
+
+
+            </FlexLayout>
+
+
+
+
+
+
+        </FlexLayout>
 
     </ContentPage>
 
 
-    <ContentPage  Title="mayo" >
+    <ContentPage  Title="May" >
+
+
+        <FlexLayout Direction="Column">
+            <StackLayout BackgroundColor="#FF7043" Orientation="Horizontal" Padding="15" >
+
+                <StackLayout  HeightRequest="25" Padding="0"   HorizontalOptions="FillAndExpand">
+
+                    <StackLayout Orientation="Horizontal" >
+                        <Image Source="https://cdn-icons-png.flaticon.com/512/25/25618.png" HeightRequest="50"/>
+                        <Label  Text="1 de May del 2022"   FontSize="Small" FontAttributes="Bold" HorizontalTextAlignment="Center"  Margin="0,12,0,0" TextColor="White" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </StackLayout>
+
+
+                <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                    <ImageButton Source="https://cdn-icons-png.flaticon.com/512/32/32339.png" BackgroundColor="#FF5722" BorderColor="White" BorderWidth="2.5"  Padding="0" WidthRequest="40" HeightRequest="40" CornerRadius="100"/>
+                </Frame>
+            </StackLayout>
+
+
+            <StackLayout  Orientation="Horizontal" Padding="15">
+                <Image Source="https://cdn-icons-png.flaticon.com/512/43/43731.png" HeightRequest="20" WidthRequest="20"/>
+                <Label Text="abril " Margin="10,0,50,0"   />
+
+                <Label Text=" 1 de May" FontSize="Small" FontAttributes="Bold"   Margin="0,0,70,0"    />
+                <Label Text="June" Margin="0,0,0,0"/>
+                <Image Source=" https://cdn-icons-png.flaticon.com/512/43/43478.png" HeightRequest="20" WidthRequest="20"/>
+
+            </StackLayout>
+
+
+            <StackLayout>
+
+                <Image Source="mayo.jpeg" />
+            </StackLayout>
+
+
+            <FlexLayout Direction="Column" FlexLayout.Grow="1"  AlignItems="Center"   >
+
+                <RelativeLayout Padding="0,0,0,30">
+                    <BoxView Color="Silver"
+                 RelativeLayout.XConstraint="0"
+                 RelativeLayout.YConstraint="10"
+                 RelativeLayout.WidthConstraint="250"
+                 RelativeLayout.HeightConstraint="5" />
+
+                </RelativeLayout>
+
+
+                <Label Text="Today's Events"   TextColor="Black" FontSize="Small" FontAttributes="Bold"  />
+
+
+                <StackLayout  Orientation="Horizontal"  Padding="0,40,0,0">
+
+                    <Label Text="1 Meeting with J. Doe " Margin="10,0,120,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
 
 
 
+                <StackLayout  Orientation="Horizontal"  Padding="0,10,0,0">
+
+                    <Label Text="2 Call J. Doe " Margin="10,0,170,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
+
+
+            </FlexLayout>
+
+
+
+
+
+
+        </FlexLayout>
 
     </ContentPage>
 
 
-    <ContentPage  Title="junio" >
+    <ContentPage  Title="June" >
+
+
+        <FlexLayout Direction="Column">
+            <StackLayout BackgroundColor="#FF7043" Orientation="Horizontal" Padding="15" >
+
+                <StackLayout  HeightRequest="25" Padding="0"   HorizontalOptions="FillAndExpand">
+
+                    <StackLayout Orientation="Horizontal" >
+                        <Image Source="https://cdn-icons-png.flaticon.com/512/25/25618.png" HeightRequest="50"/>
+                        <Label  Text="1 de June del 2022"  FontSize="Small" FontAttributes="Bold" HorizontalTextAlignment="Center"  Margin="0,12,0,0" TextColor="White" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </StackLayout>
+
+
+                <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                    <ImageButton Source="https://cdn-icons-png.flaticon.com/512/32/32339.png" BackgroundColor="#FF5722" BorderColor="White" BorderWidth="2.5"  Padding="0" WidthRequest="40" HeightRequest="40" CornerRadius="100"/>
+                </Frame>
+            </StackLayout>
+
+
+            <StackLayout  Orientation="Horizontal" Padding="15">
+                <Image Source="https://cdn-icons-png.flaticon.com/512/43/43731.png" HeightRequest="20" WidthRequest="20"/>
+                <Label Text="May " Margin="10,0,50,0"   />
+
+                <Label Text=" 1 de June" FontSize="Small" FontAttributes="Bold"  Margin="0,0,70,0"    />
+                <Label Text="July" Margin="0,0,0,0"/>
+                <Image Source=" https://cdn-icons-png.flaticon.com/512/43/43478.png" HeightRequest="20" WidthRequest="20"/>
+
+            </StackLayout>
+
+
+            <StackLayout>
+
+                <Image Source="junio.jpeg" />
+            </StackLayout>
+
+
+            <FlexLayout Direction="Column" FlexLayout.Grow="1"  AlignItems="Center"   >
+
+                <RelativeLayout Padding="0,0,0,30">
+                    <BoxView Color="Silver"
+                 RelativeLayout.XConstraint="0"
+                 RelativeLayout.YConstraint="10"
+                 RelativeLayout.WidthConstraint="250"
+                 RelativeLayout.HeightConstraint="5" />
+
+                </RelativeLayout>
+
+
+                <Label Text="Today's Events"   TextColor="Black" FontSize="Small" FontAttributes="Bold"  />
+
+
+                <StackLayout  Orientation="Horizontal"  Padding="0,40,0,0">
+
+                    <Label Text="1 Meeting with J. Doe " Margin="10,0,120,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
 
 
 
+                <StackLayout  Orientation="Horizontal"  Padding="0,10,0,0">
+
+                    <Label Text="2 Call J. Doe " Margin="10,0,170,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
+
+
+            </FlexLayout>
+
+
+
+
+
+
+        </FlexLayout>
 
     </ContentPage>
 
 
-    <ContentPage  Title="julio" >
+    <ContentPage  Title="July" >
+
+        <FlexLayout Direction="Column">
+            <StackLayout BackgroundColor="#FF7043" Orientation="Horizontal" Padding="15" >
+
+                <StackLayout  HeightRequest="25" Padding="0"   HorizontalOptions="FillAndExpand">
+
+                    <StackLayout Orientation="Horizontal" >
+                        <Image Source="https://cdn-icons-png.flaticon.com/512/25/25618.png" HeightRequest="50"/>
+                        <Label  Text="1 de July del 2022" FontSize="Small" FontAttributes="Bold"   HorizontalTextAlignment="Center"  Margin="0,12,0,0" TextColor="White" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </StackLayout>
 
 
+                <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                    <ImageButton Source="https://cdn-icons-png.flaticon.com/512/32/32339.png" BackgroundColor="#FF5722" BorderColor="White" BorderWidth="2.5"  Padding="0" WidthRequest="40" HeightRequest="40" CornerRadius="100"/>
+                </Frame>
+            </StackLayout>
+
+
+            <StackLayout  Orientation="Horizontal" Padding="15">
+                <Image Source="https://cdn-icons-png.flaticon.com/512/43/43731.png" HeightRequest="20" WidthRequest="20"/>
+                <Label Text="June " Margin="10,0,50,0"   />
+
+                <Label Text=" 1 de July" FontSize="Small" FontAttributes="Bold"   Margin="0,0,70,0"    />
+                <Label Text="August" Margin="0,0,0,0"/>
+                <Image Source=" https://cdn-icons-png.flaticon.com/512/43/43478.png" HeightRequest="20" WidthRequest="20"/>
+
+            </StackLayout>
+
+
+            <StackLayout>
+
+                <Image Source="julio.jpeg" />
+            </StackLayout>
+
+
+            <FlexLayout Direction="Column" FlexLayout.Grow="1"  AlignItems="Center"   >
+
+                <RelativeLayout Padding="0,0,0,30">
+                    <BoxView Color="Silver"
+                 RelativeLayout.XConstraint="0"
+                 RelativeLayout.YConstraint="10"
+                 RelativeLayout.WidthConstraint="250"
+                 RelativeLayout.HeightConstraint="5" />
+
+                </RelativeLayout>
+
+
+                <Label Text="Today's Events"   TextColor="Black" FontSize="Small" FontAttributes="Bold"  />
+
+
+                <StackLayout  Orientation="Horizontal"  Padding="0,40,0,0">
+
+                    <Label Text="1 Meeting with J. Doe " Margin="10,0,120,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
+
+
+
+                <StackLayout  Orientation="Horizontal"  Padding="0,10,0,0">
+
+                    <Label Text="2 Call J. Doe " Margin="10,0,170,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
+
+
+            </FlexLayout>
+
+
+
+
+
+
+        </FlexLayout>
 
 
     </ContentPage>
 
-    <ContentPage  Title="agosto" >
+    <ContentPage  Title="August" >
+
+        <FlexLayout Direction="Column">
+            <StackLayout BackgroundColor="#FF7043" Orientation="Horizontal" Padding="15" >
+
+                <StackLayout  HeightRequest="25" Padding="0"   HorizontalOptions="FillAndExpand">
+
+                    <StackLayout Orientation="Horizontal" >
+                        <Image Source="https://cdn-icons-png.flaticon.com/512/25/25618.png" HeightRequest="50"/>
+                        <Label  Text="1 de August del 2022" FontSize="Small" FontAttributes="Bold"   HorizontalTextAlignment="Center"  Margin="0,12,0,0" TextColor="White" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </StackLayout>
 
 
+                <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                    <ImageButton Source="https://cdn-icons-png.flaticon.com/512/32/32339.png" BackgroundColor="#FF5722" BorderColor="White" BorderWidth="2.5"  Padding="0" WidthRequest="40" HeightRequest="40" CornerRadius="100"/>
+                </Frame>
+            </StackLayout>
+
+
+            <StackLayout  Orientation="Horizontal" Padding="15">
+                <Image Source="https://cdn-icons-png.flaticon.com/512/43/43731.png" HeightRequest="20" WidthRequest="20"/>
+                <Label Text="July " Margin="10,0,50,0"   />
+
+                <Label Text=" 1 de August"  FontSize="Small" FontAttributes="Bold" Margin="0,0,70,0"    />
+                <Label Text="September" Margin="0,0,0,0"/>
+                <Image Source=" https://cdn-icons-png.flaticon.com/512/43/43478.png" HeightRequest="20" WidthRequest="20"/>
+
+            </StackLayout>
+
+
+            <StackLayout>
+
+                <Image Source="agosto.jpeg" />
+            </StackLayout>
+
+
+            <FlexLayout Direction="Column" FlexLayout.Grow="1"  AlignItems="Center"   >
+
+                <RelativeLayout Padding="0,0,0,30">
+                    <BoxView Color="Silver"
+                 RelativeLayout.XConstraint="0"
+                 RelativeLayout.YConstraint="10"
+                 RelativeLayout.WidthConstraint="250"
+                 RelativeLayout.HeightConstraint="5" />
+
+                </RelativeLayout>
+
+
+                <Label Text="Today's Events"   TextColor="Black" FontSize="Small" FontAttributes="Bold"  />
+
+
+                <StackLayout  Orientation="Horizontal"  Padding="0,40,0,0">
+
+                    <Label Text="1 Meeting with J. Doe " Margin="10,0,120,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
+
+
+
+                <StackLayout  Orientation="Horizontal"  Padding="0,10,0,0">
+
+                    <Label Text="2 Call J. Doe " Margin="10,0,170,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
+
+
+            </FlexLayout>
+
+
+
+
+
+
+        </FlexLayout>
 
 
     </ContentPage>
 
     <ContentPage  Title="Septiembre" >
 
+        <FlexLayout Direction="Column">
+            <StackLayout BackgroundColor="#FF7043" Orientation="Horizontal" Padding="15" >
 
+                <StackLayout  HeightRequest="25" Padding="0"   HorizontalOptions="FillAndExpand">
+
+                    <StackLayout Orientation="Horizontal" >
+                        <Image Source="https://cdn-icons-png.flaticon.com/512/25/25618.png" HeightRequest="50"/>
+                        <Label  Text="1 de septiembre del 2022"  FontSize="Small" FontAttributes="Bold" HorizontalTextAlignment="Center"  Margin="0,12,0,0" TextColor="White" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </StackLayout>
+
+
+                <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                    <ImageButton Source="https://cdn-icons-png.flaticon.com/512/32/32339.png" BackgroundColor="#FF5722" BorderColor="White" BorderWidth="2.5"  Padding="0" WidthRequest="40" HeightRequest="40" CornerRadius="100"/>
+                </Frame>
+            </StackLayout>
+
+
+            <StackLayout  Orientation="Horizontal" Padding="15">
+                <Image Source="https://cdn-icons-png.flaticon.com/512/43/43731.png" HeightRequest="20" WidthRequest="20"/>
+                <Label Text="August " Margin="10,0,50,0"   />
+
+                <Label Text=" 1 de September" FontSize="Small" FontAttributes="Bold"  Margin="0,0,70,0"    />
+                <Label Text="October" Margin="0,0,0,0"/>
+                <Image Source=" https://cdn-icons-png.flaticon.com/512/43/43478.png" HeightRequest="20" WidthRequest="20"/>
+
+            </StackLayout>
+
+
+            <StackLayout>
+
+                <Image Source="sebtiembre.jpeg" />
+            </StackLayout>
+
+
+            <FlexLayout Direction="Column" FlexLayout.Grow="1"  AlignItems="Center"   >
+
+                <RelativeLayout Padding="0,0,0,30">
+                    <BoxView Color="Silver"
+                 RelativeLayout.XConstraint="0"
+                 RelativeLayout.YConstraint="10"
+                 RelativeLayout.WidthConstraint="250"
+                 RelativeLayout.HeightConstraint="5" />
+
+                </RelativeLayout>
+
+
+                <Label Text="Today's Events"   TextColor="Black" FontSize="Small" FontAttributes="Bold"  />
+
+
+                <StackLayout  Orientation="Horizontal"  Padding="0,40,0,0">
+
+                    <Label Text="1 Meeting with J. Doe " Margin="10,0,120,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
+
+
+
+                <StackLayout  Orientation="Horizontal"  Padding="0,10,0,0">
+
+                    <Label Text="2 Call J. Doe " Margin="10,0,170,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
+
+
+            </FlexLayout>
+
+
+
+
+
+
+        </FlexLayout>
 
 
     </ContentPage>
 
-    <ContentPage  Title="octubre" >
+    <ContentPage  Title="October" >
+
+        <FlexLayout Direction="Column">
+            <StackLayout BackgroundColor="#FF7043" Orientation="Horizontal" Padding="15" >
+
+                <StackLayout  HeightRequest="25" Padding="0"   HorizontalOptions="FillAndExpand">
+
+                    <StackLayout Orientation="Horizontal" >
+                        <Image Source="https://cdn-icons-png.flaticon.com/512/25/25618.png" HeightRequest="50"/>
+                        <Label  Text="1 de October del 2022" FontSize="Small" FontAttributes="Bold" HorizontalTextAlignment="Center"  Margin="0,12,0,0" TextColor="White" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </StackLayout>
 
 
+                <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                    <ImageButton Source="https://cdn-icons-png.flaticon.com/512/32/32339.png" BackgroundColor="#FF5722" BorderColor="White" BorderWidth="2.5"  Padding="0" WidthRequest="40" HeightRequest="40" CornerRadius="100"/>
+                </Frame>
+            </StackLayout>
+
+
+            <StackLayout  Orientation="Horizontal" Padding="15">
+                <Image Source="https://cdn-icons-png.flaticon.com/512/43/43731.png" HeightRequest="20" WidthRequest="20"/>
+                <Label Text="September " Margin="10,0,50,0"   />
+
+                <Label Text=" 1 de October" FontSize="Small" FontAttributes="Bold"  Margin="0,0,70,0"    />
+                <Label Text="November" Margin="0,0,0,0"/>
+                <Image Source=" https://cdn-icons-png.flaticon.com/512/43/43478.png" HeightRequest="20" WidthRequest="20"/>
+
+            </StackLayout>
+
+
+            <StackLayout>
+
+                <Image Source="octubre.jpeg" />
+            </StackLayout>
+
+
+            <FlexLayout Direction="Column" FlexLayout.Grow="1"  AlignItems="Center"   >
+
+                <RelativeLayout Padding="0,0,0,30">
+                    <BoxView Color="Silver"
+                 RelativeLayout.XConstraint="0"
+                 RelativeLayout.YConstraint="10"
+                 RelativeLayout.WidthConstraint="250"
+                 RelativeLayout.HeightConstraint="5" />
+
+                </RelativeLayout>
+
+
+                <Label Text="Today's Events"   TextColor="Black" FontSize="Small" FontAttributes="Bold"  />
+
+
+                <StackLayout  Orientation="Horizontal"  Padding="0,40,0,0">
+
+                    <Label Text="1 Meeting with J. Doe " Margin="10,0,120,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
+
+
+
+                <StackLayout  Orientation="Horizontal"  Padding="0,10,0,0">
+
+                    <Label Text="2 Call J. Doe " Margin="10,0,170,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
+
+
+            </FlexLayout>
+
+
+
+
+
+
+        </FlexLayout>
 
 
     </ContentPage>
 
-    <ContentPage  Title="noviembre" >
+    <ContentPage  Title="November" >
+
+
+        <FlexLayout Direction="Column">
+            <StackLayout BackgroundColor="#FF7043" Orientation="Horizontal" Padding="15" >
+
+                <StackLayout  HeightRequest="25" Padding="0"   HorizontalOptions="FillAndExpand">
+
+                    <StackLayout Orientation="Horizontal" >
+                        <Image Source="https://cdn-icons-png.flaticon.com/512/25/25618.png" HeightRequest="50"/>
+                        <Label  Text="1 de November del 2022" FontSize="Small" FontAttributes="Bold"  HorizontalTextAlignment="Center"  Margin="0,12,0,0" TextColor="White" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </StackLayout>
+
+
+                <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                    <ImageButton Source="https://cdn-icons-png.flaticon.com/512/32/32339.png" BackgroundColor="#FF5722" BorderColor="White" BorderWidth="2.5"  Padding="0" WidthRequest="40" HeightRequest="40" CornerRadius="100"/>
+                </Frame>
+            </StackLayout>
+
+
+            <StackLayout  Orientation="Horizontal" Padding="15">
+                <Image Source="https://cdn-icons-png.flaticon.com/512/43/43731.png" HeightRequest="20" WidthRequest="20"/>
+                <Label Text="October " Margin="10,0,50,0"   />
+
+                <Label Text=" 1 de November" FontSize="Small" FontAttributes="Bold" Margin="0,0,70,0"    />
+                <Label Text="December" Margin="0,0,0,0"/>
+                <Image Source=" https://cdn-icons-png.flaticon.com/512/43/43478.png" HeightRequest="20" WidthRequest="20"/>
+
+            </StackLayout>
+
+
+            <StackLayout>
+
+                <Image Source="noviembre.jpeg" />
+            </StackLayout>
+
+
+            <FlexLayout Direction="Column" FlexLayout.Grow="1"  AlignItems="Center"   >
+
+                <RelativeLayout Padding="0,0,0,30">
+                    <BoxView Color="Silver"
+                 RelativeLayout.XConstraint="0"
+                 RelativeLayout.YConstraint="10"
+                 RelativeLayout.WidthConstraint="250"
+                 RelativeLayout.HeightConstraint="5" />
+
+                </RelativeLayout>
+
+
+                <Label Text="Today's Events"   TextColor="Black" FontSize="Small" FontAttributes="Bold"  />
+
+
+                <StackLayout  Orientation="Horizontal"  Padding="0,40,0,0">
+
+                    <Label Text="1 Meeting with J. Doe " Margin="10,0,120,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
 
 
 
+                <StackLayout  Orientation="Horizontal"  Padding="0,10,0,0">
+
+                    <Label Text="2 Call J. Doe " Margin="10,0,170,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
+
+
+            </FlexLayout>
+
+
+
+
+
+
+        </FlexLayout>
 
     </ContentPage>
 
-    <ContentPage  Title="diciembre" >
+    <ContentPage  Title="December" >
+
+        <FlexLayout Direction="Column">
+            <StackLayout BackgroundColor="#FF7043" Orientation="Horizontal" Padding="15" >
+
+                <StackLayout  HeightRequest="25" Padding="0"   HorizontalOptions="FillAndExpand">
+
+                    <StackLayout Orientation="Horizontal" >
+                        <Image Source="https://cdn-icons-png.flaticon.com/512/25/25618.png" HeightRequest="50"/>
+                        <Label  Text="1 de December del 2022" FontSize="Small" FontAttributes="Bold" HorizontalTextAlignment="Center"  Margin="0,12,0,0" TextColor="White" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </StackLayout>
 
 
+                <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                    <ImageButton Source="https://cdn-icons-png.flaticon.com/512/32/32339.png" BackgroundColor="#FF5722" BorderColor="White" BorderWidth="2.5"  Padding="0" WidthRequest="40" HeightRequest="40" CornerRadius="100"/>
+                </Frame>
+            </StackLayout>
+
+
+            <StackLayout  Orientation="Horizontal" Padding="15">
+                <Image Source="https://cdn-icons-png.flaticon.com/512/43/43731.png" HeightRequest="20" WidthRequest="20"/>
+                <Label Text="November " Margin="10,0,50,0"   />
+
+                <Label Text=" 1 de December" Margin="0,0,70,0"  FontSize="Small" FontAttributes="Bold"  />
+
+
+            </StackLayout>
+
+
+            <StackLayout>
+
+                <Image Source="diciembre.jpeg" />
+            </StackLayout>
+
+
+            <FlexLayout Direction="Column" FlexLayout.Grow="1"  AlignItems="Center"   >
+
+                <RelativeLayout Padding="0,0,0,30">
+                    <BoxView Color="Silver"
+                 RelativeLayout.XConstraint="0"
+                 RelativeLayout.YConstraint="10"
+                 RelativeLayout.WidthConstraint="250"
+                 RelativeLayout.HeightConstraint="5" />
+
+                </RelativeLayout>
+
+
+                <Label Text="Today's Events"   TextColor="Black" FontSize="Small" FontAttributes="Bold"  />
+
+
+                <StackLayout  Orientation="Horizontal"  Padding="0,40,0,0">
+
+                    <Label Text="1 Meeting with J. Doe " Margin="10,0,120,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
+
+
+
+                <StackLayout  Orientation="Horizontal"  Padding="0,10,0,0">
+
+                    <Label Text="2 Call J. Doe " Margin="10,0,170,0"   />
+
+                    <Label Text=" 12 AM" Margin="0,0,0,0"    />
+                    <Frame   Padding="0" CornerRadius="100" VerticalOptions="Center" HorizontalOptions="Center" >
+                        <Image Source=" https://cdn-icons-png.flaticon.com/512/57/57013.png" HeightRequest="20" WidthRequest="20" Margin="3"/>
+                    </Frame>
+                </StackLayout>
+
+
+            </FlexLayout>
+
+
+
+
+
+
+        </FlexLayout>
 
 
     </ContentPage>
-    </CarouselPage>
+</CarouselPage>
